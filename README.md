@@ -1,5 +1,15 @@
-A project exploring lens protocol API in creating profiles, managing it and employing profile manager utilities.
+## A project exploring lens protocol API in creating profiles, managing it and employing profile manager utilities.
 
+This project renders a dyanamic page. 
+
+It takes an Ethereum address, checks if there are profiles attached to  it. Retrieves the profile data via the "id". If there isn't, creates a profile, retrieves its information as above.
+
+The alternate page takes "Private key" and an "IPFS" link and creates a post. 
+
+Error was handled properly as well.
+
+
+##Limtation of Lens
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
