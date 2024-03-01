@@ -1,0 +1,91 @@
+.main {
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.container {
+  width: 100%;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  /* background: red; */
+  min-height: 80%;
+}
+
+.bodyInput {
+  min-width: 300px;
+  width: 31.25rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  /* border: transparent; */
+  border: solid .0625rem rgb(230, 112, 230);
+  outline: none;
+  background: transparent;
+  margin-right: 1rem;
+}
+
+.bodyInput::placeholder {
+  color: rgb(189, 189, 189);
+  font-size: 1rem;
+
+}
+
+/* .bodyInput:focus{
+  border: solid .0625rem rgb(230, 112, 230);
+} */
+
+.bodyInputButton {
+  /* height: 100%; */
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  background: white;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border: solid .125rem rgb(221, 187, 221);
+  cursor: pointer;
+
+  /* padding */
+}
+
+
+.bodyError {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.bodySuccess {
+  color: rgb(55, 232, 93);
+  margin-bottom: 1rem;
+}
+
+.authHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+@media(max-width: 600px) {
+  .main {
+    padding: 32px 16px;
+  }
+}
