@@ -6,10 +6,8 @@ It takes an Ethereum address, checks if there are profiles attached to  it. Retr
 
 The alternate page takes "Private key" and an "IPFS" link and creates a post. 
 
-Error was handled properly as well.
+Error was handled.
 
-
-##Limtation of Lens
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
